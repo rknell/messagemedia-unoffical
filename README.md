@@ -2,6 +2,9 @@
 A library that allows NodeJS programmers to access MessageMedia's SOAP API.
 
 ## How to get this library for your application:
+
+IMPORTANT! This is taken from the official messagemedia site. The offical site seems to have forgotten to push up the library and since I needed to use it for my app on heroku and did not want to embed it into the source code, I have made this. It will be unlikely to be updated and I recommend swtiching over to the official library if MessageMedia ever does push it up.
+
 Clone the repository into your application's *node_modules* directory.
 ```
 $ git clone https://github.com/messagemedia/messagemedia-nodejs.git messagemedia
@@ -15,10 +18,13 @@ $ npm install messagemedia
 
 **OR**
 
-Create a **package.json** file in the project's root directory and add **messagemedia** as a dependency. You can refer to the one in this project's root directory. After this file is created you can run the following command...
+Create a **package.json** file in the project's root directory and add **messagemedia-unofficial** as a dependency. You can refer to the one in this project's root directory. After this file is created you can run the following command...
 ```
 $ npm install
 ```
+
+Follow the sample documentation from there.
+
 ## Project directory structure:
 * **/lib** MessageMedia library.
 * **/test** Contains test scripts called from **/test/tests.js**.
